@@ -36,6 +36,5 @@ variable "hard_drive" {
 variable "users" {
      type = set(string)
      default = ["tom", "jerry", "pluto", "daffy", "donald", "jerry", "chip", "dale"]
-
   
 }
